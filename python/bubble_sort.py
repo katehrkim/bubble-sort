@@ -11,7 +11,7 @@ def bubble_sort(numbers):
             index = 0
         else:
             index = index + 1
-    return numbers
+    return numbers, swaps
 
 sequence = [4, 3, 5, 0, 1]
 print(bubble_sort(sequence))
